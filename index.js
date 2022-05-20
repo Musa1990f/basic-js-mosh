@@ -95,3 +95,23 @@ console.log('1' == 1);// will come out true because it does not care
 let points = 100;
 let type  = points > 100 ? 'gold' : 'silver';
 console.log(type);
+
+
+// Logical Operator
+// The and (&&)operator will always be true if both the expressions are true
+ 
+let  highIcome = true;
+let goodCreditScore = true;
+let eligibleForLoans = highIcome && goodCreditScore;
+console.log('Eligible', eligibleForLoans);
+
+// The or( || ) operator always returns true expressions even if theres a false expr
+
+const  lowIcome = true;
+const badCreditScore = false;
+const allowedForLoans = highIcome || goodCreditScore;
+console.log('Eligible', eligibleForLoans);
+
+// The Not operator (!)
+let applicationRefused = !eligibleForLoans;
+console.log('Application Refused', applicationRefused);
