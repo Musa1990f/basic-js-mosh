@@ -115,3 +115,38 @@ console.log('Eligible', eligibleForLoans);
 // The Not operator (!)
 let applicationRefused = !eligibleForLoans;
 console.log('Application Refused', applicationRefused);
+
+// logical operators with non boolean
+// Examples
+// falsy(false)
+// undefined
+//0
+// false
+// ''
+// NaN
+ 
+let userColor = 'red';
+let defaultColor = 'blue';
+let currenColor = userColor || defaultColor;
+console.log(currenColor);
+
+// Bitwise operators 
+
+// read, write, Execute
+// 00000100
+// 00000010
+// 00000001
+// Here we use binary Converter to change it to decimals
+
+const readPermission = 4;
+const writePermission = 2;
+const executePermission = 1;
+
+let myPermission = 0;
+myPermission = myPermission | writePermission;
+
+let message = (myPermission & readPermission) ? 'yes': 'no';
+console.log(message)
+
+
+
