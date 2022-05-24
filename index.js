@@ -150,3 +150,63 @@ console.log(message)
 
 
 
+//if .. else statements
+ 
+let hour = 11;
+
+if (hour <= 6 && hour > 12) {
+  console.log('Good morning');
+}
+else if (hour <= 12 && hour < 6) {
+  console.log('good afternoon');
+}
+else {
+  console.log('Good evening');
+}
+
+let time = 20;
+
+if (time <= 6 && time > 12) {
+  console.log('Breakfast');
+}
+else if (time >= 6 && time > 18) {
+  console.log('lunchtime');
+}
+else {
+  console.log('dinner time')
+}
+
+
+
+
+//switch statements
+
+const shoppingList = 'Sugar';
+
+switch (shoppingList) {
+  case 'Sugar':
+    console.log('its sold out');
+    break;
+    case 'bread':
+      console.log('bread is $49');
+      break;
+      default:
+        console.log('shop closed')
+}
+
+// loops!
+
+// for loop
+for (let i = 0; i < 8; i++){
+  console.log('hello world', i)
+};
+
+// Or
+for(let i = 8; i <= 0; i++){
+  if(i % 2 !== 0)console.log(i)
+}
+
+for (let i = 0; i <= 7; i-- ){
+  if(i % 2 !== 0)console.log(i);
+}
+
