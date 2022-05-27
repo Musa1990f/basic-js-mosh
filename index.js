@@ -228,13 +228,13 @@
 // } while(i <= 5);
 
 
-let i = 9;
-do{
-  if(i % 2 !== 0)console.log(i)
-  i++
-}while( i <= 5);
+// let i = 9;
+// do{
+//   if(i % 2 !== 0)console.log(i)
+//   i++
+// }while( i <= 5);
 
-// for...in loops
+// // for...in loops
 
 // const person = {
 //   name: 'musa',
@@ -243,9 +243,9 @@ do{
 // for(let key in person)
 // console.log(key, person[key]);
 
-const colors = ['red','green','blue'];
-for(let index in colors)
-console.log (index, colors);
+// const colors = ['red','green','blue'];
+// for(let index in colors)
+// console.log (index, colors);
 
 const robot = {
   name : 'james', 
@@ -256,4 +256,22 @@ console.log(key,robot[key]);
 
 const mango = ['yellow','black','pink','brown'];
 for(let index in mango)
-console.log(index,mango);
+console.log(index,mango); 
+
+
+// for...of
+const colors = ['red','green','blue'];
+for (color of colors)
+console.log(color)
+
+// break and continue
+let x = 0;
+while(x <= 12){
+  // 
+  if(x % 2 === 0){
+    x++;
+    continue;
+  }
+  console.log(x);
+  x++;
+}
