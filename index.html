@@ -1,15 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <h1>Hello world</h1>
-  <script src="index.js">
-    
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello world</h1>
+    <script>
+      const zoom = [
+        {
+          name: "Musa",
+          age: 47,
+          email: "me@gmail.com",
+          city: "Tokyo",
+          ishost: false,
+        },
+        {
+          name: "Farouk",
+          age: 47,
+          email: "far@gmail.com",
+          city: "Tokyo",
+          ishost: true,
+          address: [
+            {
+              city: "Kyengera",
+              town: "Wakimese",
+              population: 56000,
+              hasPaidTaxed: true,
+            },
+          ],
+        },
+        {
+          name: "Ali",
+          age: 47,
+          email: "me@gmail.com",
+          city: "Ottawa",
+          ishost: true,
+        },
+      ];
+      console.log(zoom[1].address[0].hasPaidTaxed);
+
+      const people = [
+        {
+          name: "Mei Cho",
+          isVerified: true,
+        },
+        {
+          name: "Yoo Bing",
+          isVeified: false,
+        },
+      ];
+
+      //console.log("This is ", zoom[0].name)
+      //console.log(zoom.length)
+
+      for (let i = 0; i < people.length; i++) {
+        // let i = 0 - where the loop should begin in the position of the array
+        // zoom.length - specifies the length of the array
+        // i++ - increment i by one
+        //console.log(document.bodY.innerHTML = `name${zoom[i].name}`)
+        // console.log(people[]);
+      }
+    </script>
+  </body>
 </html>

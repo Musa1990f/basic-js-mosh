@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Hello Yoo</h1>
+  <script>
+    const countries = [
+   {
+      country: "Canada",
+      size: 256566544,
+      population: 25000000,
+      leader: "Clown",
+      zip_code: 1,
+      states: [
+         {
+            name: "Ontario",
+            population: 6000000,
+            phone_code: 613,
+            towns: ["Ottawa", "Toronto", "Halifax"],
+         },
+         {
+            name: "Quebec",
+            population: 591000,
+            phone_code: 613,
+            towns: ["Montreal", "Gatineau", "Hudson"],
+         },
+         {
+            name: "British Columbia",
+            population: 4545510,
+            phone_code: 913,
+            towns: ["Vancouver", "Victoria", "Metro"],
+         },
+         {
+            name: "Alberta",
+            population: 150000,
+            phone_code: 418,
+            towns: ["Edwards", "Jameson", "Hall"],
+         },
+      ],
+   },
+   {
+      country: "United States",
+      size: 225500,
+      population: 4500000,
+      leader: "Douche",
+      zip_code: 256,
+      states: [
+         {
+            name: "New York",
+            population: 6000000,
+            phone_code: 951,
+            towns: ["Bronx", "Queens", "Manhattan"],
+         },
+         {
+            name: "Miami",
+            population: 591000,
+            phone_code: 841,
+            towns: ["Florida", "Beach", "Palm Beach"],
+         },
+         {
+            name: "Texas",
+            population: 4545510,
+            phone_code: 913,
+            towns: ["Dallas", "Ranch", "Yeehaw"],
+         },
+         {
+            name: "California",
+            population: 1500000,
+            phone_code: 418,
+            towns: ["Los Angeles", "Madison", "Hollywood"],
+         },
+      ],
+   },
+];
+
+// *****  Inorder to run your code in the console, dont press run, 
+// Go to shell, then type "node index.js" *****
+
+// Given an API above, try logging different cities or information to the console to the console.
+console.log(countries[0]);
+// log the second country in from the array
+// ** write your code below ***
+ console.log(countries[1])
+
+// log the population of California
+// ** write your code below ***
+console.log(countries[1].states[3].population)
+
+// ^ This is the perfect example on how to solve other problems
+
+// [
+//   // index [0,1,2....]
+//   {
+//     .notation
+//   }
+// ]
+
+// log the 2nd index of towns in New York
+// ** write your code below ***
+console.log(countries[1].states[0].towns[1])
+
+// log the phone_code of British Columbia
+// ** write your code below ***
+console.log(countries[0].states[2].phone_code)
+
+// log the zip_code of Canada 
+// ** write your code below ***
+console.log(countries[0].zip_code)
+
+// log all states in the USA
+// ** write your code below ***
+console.log(countries[1].states)
+
+// BONUS : log the 3rd index of towns in Miami 
+// ** write your code below ***
+console.log(countries[1].states[3])
+
+
+// log length of towns in Ottawa
+
+// Visit MDN website for mozilla about finding length of array
+// ** write your code below ***
+console.log(countries[0].states[0].towns.length)
+
+
+
+
+// functions
+let number = max (5, 9);
+console.log(number);
+function max(a, b){
+   return(a > b) ? a : b;
+}
+
+
+console.log(isLandscape(300, 700));
+function isLandscape( width, height){
+   return( width > height);
+}
+  </script>
+</body>
+</html>

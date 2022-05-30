@@ -247,31 +247,67 @@
 // for(let index in colors)
 // console.log (index, colors);
 
-const robot = {
-  name : 'james', 
-  age : 45
-};
-for(let key in robot)
-console.log(key,robot[key]);
+// const robot = {
+//   name : 'james', 
+//   age : 45
+// };
+// for(let key in robot)
+// console.log(key,robot[key]);
 
-const mango = ['yellow','black','pink','brown'];
-for(let index in mango)
-console.log(index,mango); 
+// const mango = ['yellow','black','pink','brown'];
+// for(let index in mango)
+// console.log(index,mango); 
 
 
-// for...of
-const colors = ['red','green','blue'];
-for (color of colors)
-console.log(color)
+// // for...of
+// const colors = ['red','green','blue'];
+// for (color of colors)
+// console.log(color)
 
-// break and continue
-let x = 0;
-while(x <= 12){
-  // 
-  if(x % 2 === 0){
-    x++;
-    continue;
-  }
-  console.log(x);
-  x++;
-}
+// // break and continue
+// let x = 0;
+// while(x <= 12){
+//   // 
+//   if(x % 2 === 0){
+//     x++;
+//     continue;
+//   }
+//   console.log(x);
+//   x++;
+// }
+
+// const userInput = {
+//   name: "Musa",
+//   age : 47,
+//   email:"me@gmail.com",
+//   city:"Tokyo",
+//   ishost: false
+// }
+
+// const zoom = [
+//   {
+//     name: "Musa",
+//     age : 47,
+//     email:"me@gmail.com",
+//     city:"Tokyo",
+//     ishost: false
+//   },
+//   {
+//     name: "Farouk",
+//     age : 47,
+//     email:"me@gmail.com",
+//     city:"Tokyo",
+//     ishost: true
+//   }
+// ]
+
+// console.log()
+
+
+// // functions
+
+// let number = max(3, 3);
+// console.log(number);
+// function(a, b){
+//   return (a > b) ? a : b;
+// }
